@@ -1,0 +1,12 @@
+{
+  "capabilities": [],
+  "claims": [],
+  "evidence_maturity": "architecture_only",
+  "lifecycle": "local_scaffold",
+  "qualified_owned_schema_ids": [],
+  "repository_name": "SPIKE-FORMAT-BRIDGE",
+  "source_metadata": {
+    "path": "repository-domain.json",
+    "sha256": "e3cc661197dcd24caea8666b1611f5977412df7a1b3a843f8c3ae7a2368ff53d"
+  }
+}
