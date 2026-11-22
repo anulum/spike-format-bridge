@@ -9,7 +9,7 @@
 # Exact existing direct tooling; no new development or domain dependency.
 bandit==1.9.4
 coverage==7.16.2
-cyclonedx-bom==7.5.0
+cyclonedx-bom==9.0.0
 jsonschema==4.26.0
 markdown==3.11.2
 mkdocs==1.6.1
