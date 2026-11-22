@@ -15,7 +15,7 @@ from typing import Final, cast
 from .inputs import CheckFailure, Json, read_bytes, read_object
 from .report import Finding, Report
 
-SCHEMA_SHA256: Final = "4cc6fc0908c04c1316f3c459edd0c4cbd87cfa46a027241f3b01ad967a2ed721"
+SCHEMA_SHA256: Final = "8acb17d37de05974eb1961953de18ef649cc5ab69ee8299b7aaf147722c96972"
 PROFILE: Final[dict[str, Json]] = {
     "id": "gotm.enterprise-repository-tier0.local-scaffold",
     "revision": "2026-10-04",
@@ -54,7 +54,8 @@ def verify(root: Path) -> None:
     expected: dict[str, Json] = {
         "repository_name": "SPIKE-FORMAT-BRIDGE",
         "owner_group": "SC-NEUROMORPHIC-COMPUTING-SYSTEMS",
-        "lifecycle": "local_scaffold",
+        "lifecycle": "public_repository",
+        "public_remote": "https://github.com/anulum/spike-format-bridge",
         "evidence_maturity": "architecture_only",
         "capabilities": [],
         "claims": [],

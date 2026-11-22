@@ -64,7 +64,9 @@ def test_bootstrap_is_read_only_and_requires_no_inventory(root: Path) -> None:
     [
         (("repository_name",), "OTHER"),
         (("owner_group",), "OTHER"),
-        (("lifecycle",), "public_repository"),
+        (("lifecycle",), "local_scaffold"),
+        (("public_remote",), "https://github.com/anulum/other-repository"),
+        (("public_remote",), "https://github.com/anulum/SPIKE-FORMAT-BRIDGE"),
         (("evidence_maturity",), "qualified"),
         (("capabilities",), ["convert"]),
         (("claims",), ["lossless"]),

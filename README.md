@@ -13,6 +13,8 @@ SPIKE-FORMAT-BRIDGE — repository foundation
 Spike Format Bridge is being built to convert neuromorphic recordings with
 explicit accounting of timestamp changes, omitted streams and other losses.
 
+Spike Format Bridge is part of the **SC Neuromorphic Computing Systems** group (SC-NEUROMORPHIC-COMPUTING-SYSTEMS). The [group and project map](https://github.com/anulum/sc-neurocore/blob/main/docs/ecosystem.md) shows the whole programme and where this repository sits in it.
+
 Current maturity is **architecture only**. The repository contains local repository validation tooling and its tests. Recording readers, writers, conversion commands and a
 distributable domain package are planned.
 
